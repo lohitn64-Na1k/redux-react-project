@@ -1,0 +1,29 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "Need help with groceries",
+      "description": "Can someone help me buy groceries?",
+      "type": "Request",
+      "category": "Food",
+      "resolved": true
+    },
+    {
+      "id": "2",
+      "title": "Offering free tuition",
+      "description": "I can teach basic mathematics.",
+      "type": "Offer",
+      "category": "Education",
+      "resolved": false
+    },
+    {
+      "title": "help with baby sittimg",
+      "description": " i have to go to work can someone help with take care of my child",
+      "type": "Request",
+      "category": "Household",
+      "resolved": false,
+      "id": "BDjZ5jfpLYc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

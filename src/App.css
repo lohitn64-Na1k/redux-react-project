@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 25px;
+}
+
+h1 {
+    color: #245c45;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 25px 0;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    min-height: 90px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #287b55;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #195b3c;
+}
+
+.categories {
+    margin: 15px 0;
+}
+
+.categories .active {
+    background: #183f2c;
+}
+
+.post-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.post-card {
+    background: white;
+    padding: 18px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #ddd;
+}
+
+.post-card h3 {
+    color: #245c45;
+}
+
+@media (max-width: 600px) {
+    .post-container {
+        grid-template-columns: 1fr;
+    }
+}
